@@ -1,0 +1,96 @@
+{
+  "books": [],
+  "products": [
+    {
+      "id": 1,
+      "name": "Đồng hồ thời trang",
+      "description": "Đồng hồ thời trang cao cấp, phù hợp cho mọi lứa tuổi.",
+      "image": "https://product.hstatic.net/200000289371/product/dong-ho-thong-minh-tre-em-kids-life-xanh_e5df97f5e1c54474a2c2fe0146775174_master.jpg",
+      "price": 100000
+    },
+    {
+      "id": 2,
+      "name": "Áo phông nam",
+      "description": "Áo phông nam chất liệu cotton, thoáng mát và thời trang.",
+      "image": "https://chodole.com/cdn/shop/products/CDL5_1_1024x1024.jpg?v=1586758906",
+      "price": 100000
+    },
+    {
+      "id": 3,
+      "name": "Áo nữ",
+      "description": "Áo thun nữ croptop phong cách trẻ trung, năng động.",
+      "image": "https://hellomida.vn/wp-content/uploads/2024/07/Ao-Thun-Nu-Croptop-Co-Tron-In-Chu-GOTUE-ATFM14-H1-600x900.jpg",
+      "price": 2000000
+    },
+    {
+      "id": 4,
+      "name": "Áo phông nữ ",
+      "description": "Áo thun nữ croptop phong cách trẻ trung, năng động.",
+      "image": "https://hellomida.vn/wp-content/uploads/2024/07/Ao-Thun-Nu-Croptop-Co-Tron-In-Chu-GOTUE-ATFM14-H1-600x900.jpg",
+      "price": 2000000
+    },
+    {
+      "name": "Quần Đùi",
+      "description": "Tốt",
+      "price": 10000000,
+      "image": "https://picsum.photos/200/300",
+      "id": 5
+    }
+  ],
+  "variants": [],
+  "carts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 4
+        },
+        {
+          "productId": 2,
+          "quantity": 5
+        },
+        {
+          "productId": 3,
+          "quantity": 2
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 1,
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 2
+        },
+        {
+          "productId": 3,
+          "quantity": 1
+        }
+      ],
+      "total": 2100000,
+      "status": "completed",
+      "createdAt": "2025-03-31T10:00:00Z"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Nguyen Van A",
+      "email": "angocit@gmail.com",
+      "password": "$2a$10$mUc1H/gnjo5gzQTWK/uW3O.pUi8nO36K3mjTOx4aSK6uOF7/3N21a",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Nguyen Van B",
+      "email": "angocit2@gmail.com",
+      "password": "$2a$10$JrV4oOOxPsLlvX21FyRs9.aZtz2MYaxWHAX6K68G38hASMLjGdCsG",
+      "role": "customer"
+    }
+  ]
+}
