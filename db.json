@@ -6,35 +6,79 @@
       "name": "Đồng hồ thời trang",
       "description": "Đồng hồ thời trang cao cấp, phù hợp cho mọi lứa tuổi.",
       "image": "https://product.hstatic.net/200000289371/product/dong-ho-thong-minh-tre-em-kids-life-xanh_e5df97f5e1c54474a2c2fe0146775174_master.jpg",
-      "price": 100000
+      "price": 100000,
+      "category": "Accessories",
+      "brand": "Casio"
     },
     {
       "id": 2,
       "name": "Áo phông nam",
       "description": "Áo phông nam chất liệu cotton, thoáng mát và thời trang.",
       "image": "https://chodole.com/cdn/shop/products/CDL5_1_1024x1024.jpg?v=1586758906",
-      "price": 100000
+      "price": 100000,
+      "category": "Clothing",
+      "brand": "Uniqlo"
     },
     {
       "id": 3,
       "name": "Áo nữ",
       "description": "Áo thun nữ croptop phong cách trẻ trung, năng động.",
       "image": "https://hellomida.vn/wp-content/uploads/2024/07/Ao-Thun-Nu-Croptop-Co-Tron-In-Chu-GOTUE-ATFM14-H1-600x900.jpg",
-      "price": 2000000
+      "price": 2000000,
+      "category": "Clothing",
+      "brand": "Zara"
     },
     {
       "id": 4,
-      "name": "Áo phông nữ ",
+      "name": "Áo phông nữ",
       "description": "Áo thun nữ croptop phong cách trẻ trung, năng động.",
       "image": "https://hellomida.vn/wp-content/uploads/2024/07/Ao-Thun-Nu-Croptop-Co-Tron-In-Chu-GOTUE-ATFM14-H1-600x900.jpg",
-      "price": 2000000
+      "price": 2000000,
+      "category": "Clothing",
+      "brand": "H&M"
     },
     {
-      "name": "Quần Đùi",
-      "description": "Tốt",
-      "price": 10000000,
+      "id": 5,
+      "name": "Quần đùi",
+      "description": "Quần đùi nam chất liệu thoáng mát, phù hợp cho mùa hè.",
       "image": "https://picsum.photos/200/300",
-      "id": 5
+      "price": 10000000,
+      "category": "Clothing",
+      "brand": "Nike"
+    },
+    {
+      "id": 6,
+      "name": "Giày thể thao",
+      "description": "Giày thể thao phong cách trẻ trung, năng động.",
+      "image": "https://picsum.photos/200/300",
+      "price": 1500000,
+      "category": "Footwear",
+      "brand": "Adidas"
+    },
+    {
+      "id": 7,
+      "name": "Túi xách nữ Đì O",
+      "description": "Túi xách nữ thời trang, phù hợp cho mọi dịp.",
+      "image": "https://picsum.photos/200/300",
+      "price": 3000000,
+      "category": "Accessories",
+      "brand": "Gucci"
+    },
+    {
+      "name": "Quần đùi nữ",
+      "description": "sản phẩm tốt, vải phù hợp mọi lứa tuổi",
+      "price": 1000000,
+      "image": "https://picsum.photos/200/300",
+      "category": "Footwear",
+      "id": 8
+    },
+    {
+      "name": "Áo thun nam",
+      "description": "Chất liệu vải tốt, phù hợp da mọi lứa tuổi",
+      "price": 123000000,
+      "image": "https://picsum.photos/200/300",
+      "category": "Clothing",
+      "id": 10
     }
   ],
   "variants": [],

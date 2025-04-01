@@ -1,5 +1,5 @@
 import React from 'react';
-import ProductList from '../compoments/Client/ProductList';
+import ProductList from '../compoments/Client/ProductListt';
 import Cart from '../compoments/Client/Cart';
 import Header from '../compoments/Shared/Header';
 import Footer from '../compoments/Shared/Footer';

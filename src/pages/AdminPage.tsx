@@ -1,8 +1,8 @@
 import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
-import AddProduct from '../compoments/Admin/Addproduct';
-import EditProduct from '../compoments/Admin/EditProduct';
-import ProductList from '../compoments/Admin/ProductList';
+import AddProduct from '../compoments/Admin/Product/Addproduct';
+import EditProduct from '../compoments/Admin/Product/EditProduct';
+import ProductList from '../compoments/Admin/Product/ProductList';
 
 const AdminPage: React.FC = () => {
     return (

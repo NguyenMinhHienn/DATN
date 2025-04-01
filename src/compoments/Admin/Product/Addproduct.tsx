@@ -1,11 +1,14 @@
 import React, { useState } from 'react';
-import { addProduct } from '../../services/api';
+import { addProduct } from '../../../services/api';
 
 const AddProduct: React.FC = () => {
     const [productName, setProductName] = useState('');
     const [productDescription, setProductDescription] = useState('');
     const [productPrice, setProductPrice] = useState('');
     const [productImage, setProductImage] = useState('');
+    const [productCategory, setProductCategory] = useState(''); // Thêm state cho danh mục sản phẩm
+
+    const categories = ['Clothing', 'Footwear', 'Accessories', 'Bags']; // Danh sách danh mục
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
@@ -14,6 +17,7 @@ const AddProduct: React.FC = () => {
             description: productDescription,
             price: parseFloat(productPrice),
             image: productImage,
+            category: productCategory, // Thêm danh mục vào sản phẩm
         };
         await addProduct(newProduct);
         // Reset form fields
@@ -21,6 +25,7 @@ const AddProduct: React.FC = () => {
         setProductDescription('');
         setProductPrice('');
         setProductImage('');
+        setProductCategory(''); // Reset danh mục
         alert('Product added successfully!');
     };
 
@@ -71,6 +76,24 @@ const AddProduct: React.FC = () => {
                         placeholder="Enter image URL"
                         required
                     />
+                </div>
+                <div>
+                    <label className="block text-gray-700 font-medium mb-2">Category</label>
+                    <select
+                        value={productCategory}
+                        onChange={(e) => setProductCategory(e.target.value)}
+                        className="border border-gray-300 p-3 w-full rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        required
+                    >
+                        <option value="" disabled>
+                            Select a category
+                        </option>
+                        {categories.map((category) => (
+                            <option key={category} value={category}>
+                                {category}
+                            </option>
+                        ))}
+                    </select>
                 </div>
                 <button
                     type="submit"
