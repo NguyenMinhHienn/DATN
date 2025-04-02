@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './router';
+import App from './App';
 import './index.css'; // Đảm bảo file index.css tồn tại trong thư mục src
 import { CartProvider } from './context/CartContext';
 

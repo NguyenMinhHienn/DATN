@@ -10,23 +10,24 @@ import Users from './compoments/Admin/User';
 import NotFoundPage from './pages/NotFoundPage';
 import ProductsPage from './compoments/Client/ProductPage';
 import ProductDetail from './compoments/Client/ProductDetail';
-import Cart from './compoments/Client/Cart';
 import Login from './compoments/Client/Auth/Login';
 import Register from './compoments/Client/Auth/Register';
 import ProductListt from './compoments/Client/ProductListt';
+import Checkout from './compoments/Client/Checkout'; // Import trang Checkout
+// import Header from './compoments/Shared/Header'; // Import Header
 
 const App: React.FC = () => {
     return (
         <Router>
+            
             <Routes>
                 {/* Client Routes */}
                 <Route path="/" element={<ProductListt />} />
                 <Route path="/products" element={<ProductsPage />} />
                 <Route path="/products/:id" element={<ProductDetail />} />
-                <Route path="/cart" element={<Cart />} />
+                <Route path="/checkout" element={<Checkout />} /> {/* Thêm route Checkout */}
                 <Route path="/login" element={<Login />} />
                 <Route path="/register" element={<Register />} />
-
 
                 {/* Admin Routes */}
                 <Route path="/admin/*" element={<AdminLayout />}>
